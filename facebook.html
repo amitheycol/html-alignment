@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>כניסה לפייסבוק</title>
+  <!-- Bootstrap RTL -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css"
+    rel="stylesheet"
+  >
+  <!-- עיצוב מותאם אישי -->
+  <link rel="stylesheet" href="facebook.css">
+</head>
+<body>
+
+  <!-- מכולה ראשית שממרכזת את הכל באמצע המסך אנכית ואופקית -->
+  <div class="d-flex flex-column min-vh-100 justify-content-center">
+
+    <!-- תוכן עליון (כותרת + כרטיס) -->
+    <div class="container d-flex flex-column flex-lg-row align-items-center justify-content-center pt-5 pb-4">
+      
+      <!-- טקסט פייסבוק לימין -->
+      <div class="text-center text-lg-end mb-5 mb-lg-0 pe-lg-5">
+        <h1 class="facebook-title display-2 fw-bold mb-2">facebook</h1>
+        <p class="fs-4 text-dark mb-0">
+          פייסבוק מאפשרת לך להתחבר ולשתף יחד עם האנשים בחייך.
+        </p>
+      </div>
+
+      <!-- כרטיס ההתחברות משמאל -->
+      <div class="card shadow-sm p-4" style="max-width: 380px; width: 100%;">
+        <!-- טופס -->
+        <form>
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control form-control-lg"
+              placeholder="כתובת דוא״ל או מספר טלפון"
+            >
+          </div>
+          <div class="mb-3">
+            <input
+              type="password"
+              class="form-control form-control-lg"
+              placeholder="סיסמה"
+            >
+          </div>
+          <div class="d-grid gap-2">
+            <button
+              type="submit"
+              class="btn btn-primary btn-lg fw-bold"
+            >
+              התחברות
+            </button>
+          </div>
+
+          <div class="text-center my-3">
+            <a href="#" class="text-decoration-none text-primary small">
+              שכחת את הסיסמה?
+            </a>
+          </div>
+          <hr>
+        </form>
+        <!-- סוף טופס -->
+
+        <!-- כפתור 'צור חשבון חדש' -->
+        <div class="button-container">
+          <div class="d-grid mb-2">
+            <button
+              type="button"
+              class="btn btn-success fw-bold"
+            >
+              צור חשבון חדש
+            </button>
+          </div>
+        </div>
+
+        <!-- יצירת דף -->
+        <div class="text-center mt-2">
+          <a href="#" class="text-dark small text-decoration-none">
+            <strong>צור/צרי דף</strong> לעסק, מותג או פרסום.
+          </a>
+        </div>
+      </div>
+      <!-- סוף כרטיס -->
+    </div>
+    <!-- סוף תוכן עליון -->
+  </div>
+
+  <!-- פוטר (תחתית המסך) -->
+  <footer class="footer-fb">
+    <div class="container text-center">
+      <div class="d-flex flex-wrap justify-content-center gap-2 footer-langs mb-2">
+        <span>עברית</span>
+        <span>English (US)</span>
+        <span>العربية</span>
+        <span>Español</span>
+        <span>Français (France)</span>
+        <span>Русский</span>
+        <span>Italiano</span>
+        <span>Português (Brasil)</span>
+        <span>Deutsch</span>
+        <span>हिंदी</span>
+        <button class="btn btn-sm btn-outline-secondary px-2 py-0">+</button>
+      </div>
+      <div class="d-flex flex-wrap justify-content-center gap-3 footer-links mb-1">
+        <a href="#">Threads</a>
+        <a href="#">אינסטגרם</a>
+        <a href="#">Meta AI</a>
+        <a href="#">Ray-Ban Meta</a>
+        <a href="#">Meta Quest</a>
+        <a href="#">Meta Store</a>
+        <a href="#">Meta Pay</a>
+        <a href="#">Marketplace</a>
+        <a href="#">Watch</a>
+        <a href="#">Facebook Lite</a>
+        <a href="#">Messenger</a>
+        <a href="#">התחברות</a>
+        <a href="#">הרשמה</a>
+        <a href="#">מרכז המידע למצביעים</a>
+        <a href="#">מדיניות הפרטיות</a>
+        <a href="#">מרכז הפרסום</a>
+        <a href="#">מרכז העזרה</a>
+        <a href="#">תנאים</a>
+        <a href="#">עוגיות</a>
+        <a href="#">צור קשר</a>
+      </div>
+      <p class="mb-0" style="font-size: 12px; color: #8a8d91;">
+        Meta © 2025
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
