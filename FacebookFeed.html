@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="feed.css" rel="stylesheet">
+    <title>Facebook</title>
+</head>
+
+<body>
+    <header class="bg-dark text-white container-fluid">
+        <div class="container-fluid text-center">
+            <div class="row align-items-center">
+                <div class="col-3 d-flex align-items-center gap-0 justify-content-start">
+                    <div class="icon-circle overflow-hidden">
+                        <img src="squishi.jpeg" alt="Profile" class="profile-pic" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        data-bs-title="חשבון">
+                        </div>
+                    <button class="btn nohover" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        data-bs-title="תפריט">
+                        <i class="bi bi-three-dots-vertical fs-3 icon-circle mx-2"></i>
+                    </button>
+                    <div class="icon-circle position-relative">
+                        <button class="btn nohover" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                            data-bs-title="התראות">
+                            <i class="bi bi-bell-fill fs-5 text-white"></i>
+                        </button>
+                        <span class="position-absolute top-0 start-0 translate-middle badge rounded-pill bg-danger">
+                            99+
+                        </span>
+                    </div>
+                    <button class="btn nohover" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        data-bs-title="Messenger">
+                        <i class="bi bi-messenger fs-3 icon-circle"></i>
+                    </button>
+                </div>
+                <div class="col-6 d-flex justify-content-center gap-4">
+                    <button class="btn btn:hover" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        data-bs-title="גיימינג">
+                        <i class="bi bi-controller fs-3 mx-4 text-white"></i>
+                    </button>
+                    <button class="btn btn:hover" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        data-bs-title="קבוצות">
+                        <i class="bi bi-people fs-3 mx-4 text-white"></i>
+                    </button>
+                    <button class="btn btn:hover" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        data-bs-title="Marketplace">
+                        <i class="bi bi-shop fs-3 mx-4 text-white"></i>
+                    </button>
+                    <button class="btn btn:hover" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        data-bs-title="סרטונים">
+                        <i class="bi bi-tv fs-3 mx-4 text-white"></i>
+                    </button>
+                    <button class="btn btn:hover" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        data-bs-title="דף הבית">
+                        <i class="bi bi-house-door fs-3 mx-4 text-white"></i>
+                    </button>
+
+                </div>
+                <div class="col-3 d-flex align-items-center justify-content-end">
+                    <div class="d-flex justify-content-end align-items-center gap-0">
+                        <div class="input-group custom-search">
+                            <span class="input-group-text border-end-0">
+                                <i class="bi bi-search text-dark"></i>
+                            </span>
+                            <input type="text" class="form-control border-start-0" placeholder="Facebook Search">
+                        </div>
+                        <button class="btn nohover d-flex align-items-center p-0">
+                            <div class="icon-circle-facebook mx-2">
+                            <i class="bi bi-facebook"></i>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="text-white container-fluid mt-3">
+        <div class="container-fluid text-center justify-content-center">
+            <div class="row">
+              <div class="col-3">
+                <div class="aligntoright text-end">
+                <p class="title-styling mb-2">ימי הולדת</p>
+                <i class="bi bi-gift gift-icon-style"></i>
+                </div>
+                <hr class="divider">
+                <div class="d-flex">
+                    <button class="icon-circle-leftside"><i class="bi bi-three-dots"></i></button>
+                    <button class="icon-circle-leftside"><i class="bi bi-search"></i></button>
+                    <p class="title-styling ms-auto">אנשי קשר</p>
+                </div>
+              </div>
+              <div class="col-6 d-flex justify-content-center">
+                <div class="feed-box d-flex">
+                    <div class="d-flex align-items-center gap-2 custom-search-main">
+                        <input type="text" class="form-control border-start-0" placeholder="מה תרצה לשתף,Israel?">
+                    </div>
+                        <div class="icon-circle overflow-hidden mx-2">
+                            <img src="squishi.jpeg" alt="Profile" class="profile-pic" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                            data-bs-title="חשבון">
+                        </div>
+                </div>
+                <hr class="divider">
+              </div>
+              <div class="col-3 text-white p-3 rounded">
+                <ul class="list-unstyled sidebar-list">
+                        <li class="list-group-item text-end fs-3 sidebar-item">
+                            <span class="mx-2 title-styling-sidebar">Israel israeli</span>
+                            <div class="icon-circle overflow-hidden">
+                                <img src="squishi.jpeg" alt="Profile" class="profile-pic" data-bs-toggle="tooltip">
+                            </div>
+                        </li>
+                        <li class="list-group-item text-end fs-3 sidebar-item">
+                        <span class="title-styling-sidebar">חברים</span>
+                        <span><i id="peoplecol" class="bi bi-person-lines-fill icon"></i></span>
+                        </li>
+                        <li class="list-group-item text-end fs-3 sidebar-item">
+                            <span class="title-styling-sidebar">זכרונות</span>
+                            <span><i id="clock" class="bi bi-clock-fill icon"></i></span>
+                        </li>
+                        <li class="list-group-item text-end fs-3 sidebar-item">
+                            <span class="title-styling-sidebar">שמורים</span>
+                            <span><i id="saved" class="bi bi-bookmark-fill icon"></i></span>
+                        </li>
+                        <li class="list-group-item text-end fs-3 sidebar-item">
+                            <span class="title-styling-sidebar">קבוצות</span>
+                            <span><i id="groups" class="bi bi-people-fill icon bg-primary"></i></span>
+                        </li>
+                        <li class="list-group-item text-end fs-3 sidebar-item">
+                            <span class="title-styling-sidebar">סרטונים</span>
+                            <span><i id="videosANDmarketplace" class="bi bi-play-btn-fill icon"></i></span>
+                        </li>
+                        <li class="list-group-item text-end fs-3 sidebar-item">
+                            <span class="title-styling-sidebar">Marketplace</span>
+                            <span><i id="videosANDmarketplace" class="bi bi-shop icon"></i></span>
+                        </li>
+                        <li class="list-group-item text-end fs-3 sidebar-item">
+                            <span class="title-styling-sidebar">פידים</span>
+                            <span><i id="feeds" class="bi bi-folder2 icon"></i></span>
+                        </li>
+                        <div class="sidebar-item special-toggel">
+                            <span class="title-styling-sidebar">עוד</span>
+                            <span><i class="bi bi-chevron-down icon-circle arrow-icon "></i></span>
+                        </div>
+                        <hr class="divider">
+                    <li class="list-group-item title-styling text-end">קיצורי הדרך שלך</li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+</body>
+
+</html>
