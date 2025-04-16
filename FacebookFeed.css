@@ -1,249 +1,271 @@
-.bg-grey{
-    background-color: #313436;
+.bg-grey {
+  background-color: #313436;
 }
 
 body {
-    background-color: #18191a;
-    color: #e4e6eb;
-  }
-
-header{
-padding: 5px;
-
+  background-color: #18191a;
+  color: #e4e6eb;
 }
-input{
-    direction: rtl;
+
+header {
+  padding: 5px;
 }
+
+input {
+  direction: rtl;
+}
+
 .form-control::placeholder {
-    color: #cfd2d6;
-    opacity: 1;
-  }
-.icon-circle {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        background-color: rgba(255, 255, 255, 0.1);
-        color: white;
-        position: relative;
-  }
-  .icon-circle-facebook{
-    width: 41.3px;
-    height: 41.3px;
-    background-color: #ffffff;
-    border-radius: 50%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-  } 
-  .icon-circle-facebook i {
-    color: #1877f2;
-    font-size: 2.6rem;
-    line-height: 0.1;
-  }
-
-  .btn:hover:not(.nohover) {/*Rectangle hover only for the middle icoons*/
-    border-radius: 8px; 
-    background-color: rgba(255, 255, 255, 0.2); 
-  }
-  .icon-circle:hover {/*Hover for the left circles*/
-    background-color: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);   
-    transform: scale(1.05);                     
-  }
-  
-  .custom-search{
-    border: 1px solid #313436;
-    border-radius: 50px;
-    overflow: hidden;
-    height: 38px;
-    max-width: 300px;
-    background-color: #4a4f52;
-  }
-  .custom-search input{
-    border: none;
-    background-color: #4a4f52;
-  }
-  .custom-search .input-group-text{
-    border: none;
-    background-color: #4a4f52;
-  }
-
-  .custom-search-main{
-    border: 1px solid #313436;
-    border-radius: 50px;
-    overflow: hidden;
-    height: 38px;
-    max-width: 400px;
-    background-color: #4a4f52;
-  }
-  .custom-search-main input{
-    border: 1px solid #313436;
-    background-color: #4a4f52;
-    width: 400px;
-    height: 40px;
-    padding: 10px 16px;
-  }
-  .profile-pic {
-    width: 64px;
-    height: 40px;
-    border-radius: 50%;
-    object-fit: cover;
-    cursor: pointer;
-  }
-
-  .feed-box {
-    width: 480px; 
-    min-height: 130px;
-    background-color:#313436 ;
-    border-radius: 12px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 15px;
-  }
-  .sidebar-box {
-    background-color: #2f3133;
-    border-radius: 12px;
-    color: white;
-  }
-/*Side bar icon styling*/
-#peoplecol{
-    color: aquamarine;
+  color: #cfd2d6;
+  opacity: 1;
 }
-#clock{
-  display: inline-flex ;
-  border: 2px solid #1877f2; 
+
+.icon-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  position: relative;
+}
+
+.icon-circle-facebook {
+  width: 41.3px;
+  height: 41.3px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-circle-facebook i {
+  color: #1877f2;
+  font-size: 2.6rem;
+  line-height: 0.1;
+}
+
+.btn:hover:not(.nohover) {
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.icon-circle:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.custom-search {
+  border: 1px solid #313436;
+  border-radius: 50px;
+  overflow: hidden;
+  height: 38px;
+  max-width: 300px;
+  background-color: #4a4f52;
+}
+
+.custom-search input {
+  border: none;
+  background-color: #4a4f52;
+}
+
+.custom-search .input-group-text {
+  border: none;
+  background-color: #4a4f52;
+}
+
+.custom-search-main {
+  border: 1px solid #313436;
+  border-radius: 50px;
+  overflow: hidden;
+  height: 38px;
+  max-width: 400px;
+  background-color: #4a4f52;
+}
+
+.custom-search-main input {
+  border: 1px solid #313436;
+  background-color: #4a4f52;
+  width: 400px;
+  height: 40px;
+  padding: 10px 16px;
+}
+
+.profile-pic {
+  width: 64px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.feed-box {
+  width: 480px;
+  min-height: 130px;
+  background-color: #313436;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+.sidebar-box {
+  background-color: #2f3133;
+  border-radius: 12px;
+  color: white;
+}
+
+/* Side bar icon styling */
+#peoplecol {
+  color: aquamarine;
+}
+
+#clock {
+  display: inline-flex;
+  border: 2px solid #1877f2;
   width: 27px;
   height: 27px;
-  border-radius: 50%;        
+  border-radius: 50%;
 }
-#saved{
-    background: linear-gradient(180deg, #e440f2, #7b5cff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: inline-block;
-}
-#groups{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    color: white;
-    position: relative;
-}
-#videosANDmarketplace{
-        background: linear-gradient(135deg, #5ce1e6, #1877f2);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        display: inline-block;
-}
-#feeds{
-    background: linear-gradient(to bottom, #ffffff 50%, #1877f2 50%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: inline-block;
 
+#saved {
+  background: linear-gradient(180deg, #e440f2, #7b5cff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
 }
-/*End side bar icon styling*/
 
-/*Side bar sytling*/
+
+#groups {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  color: white;
+  position: relative;
+}
+
+#videosANDmarketplace {
+  background: linear-gradient(135deg, #5ce1e6, #1877f2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+#feeds {
+  background: linear-gradient(to bottom, #ffffff 50%, #1877f2 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+/* End side bar icon styling */
+
+/* Side bar styling */
 .sidebar-list {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .sidebar-item{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 8px 12px;
-    border-radius: 8px;
-    transition: background-color 0.2s ease;
-  }
-  
-  .sidebar-item:hover {
-    background-color: #3a3d40; 
-    cursor: pointer;
-  }
-  .sidebar-item span{
-    font-size: small;
-    margin-left: 8px;
-  }
-  
-  .sidebar-item .icon {
-    font-size: 1.5rem;
-  }
-  
-  .sidebar-item .text {
-    font-size: 0.95rem;
-    color: white;
-  }
-  
-  .arrow-icon {/*Style for the arrow icon*/
-    width: 32px;
-    height: 32px;
-    background-color: #4a4f52;
-    border-radius: 50%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 0.2s ease;
-  }
-  
-  .arrow-icon:hover {
-    background-color: #5a5f62;
-    cursor: pointer;
-  }
-  /*End of side bar styling*/
-
-  .title-styling{/*Facebook font style*/
-   font-family: "Segoe UI", Helvetica, Arial, sans-serif;
-   font-weight: bold;
-   font-size: 15px;
-   color: #9b9fa2; 
-  }
-  .title-styling-sidebar{/*Facebook font style - for sidebar*/
-    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    font-size: 15px;
-    color: #c9ced2; 
-   }
-.divider{
-        border: none;
-        border-top: 1px solid #f0f4f7; 
-        margin: 8px 0;
+  margin: 0;
+  padding: 0;
 }
 
-/*Left side of page*/
+.sidebar-item {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.sidebar-item:hover {
+  background-color: #3a3d40;
+  cursor: pointer;
+}
+
+.sidebar-item span {
+  font-size: small;
+  margin-left: 8px;
+}
+
+.sidebar-item .icon {
+  font-size: 1.5rem;
+}
+
+.sidebar-item .text {
+  font-size: 0.95rem;
+  color: white;
+}
+
+.arrow-icon {
+  width: 32px;
+  height: 32px;
+  background-color: #4a4f52;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+}
+
+.arrow-icon:hover {
+  background-color: #5a5f62;
+  cursor: pointer;
+}
+
+/* Facebook font style */
+.title-styling {
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #9b9fa2;
+}
+
+.title-styling-sidebar {
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #c9ced2;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #f0f4f7;
+  margin: 8px 0;
+}
+
+/* Left side of page */
 .icon-circle-leftside {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    color: white;
-    background-color: #18191a;
-    position: relative;
-    transition: all 0.2s ease;
-    padding: 0;
-    border: none;
-}
-.icon-circle-leftside:hover{
-    background-color: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);   
-    transform: scale(1.05); 
-    border-radius: 50%; 
-}
-.aligntorigth{
-    text-align: right;
-}
-.gift-icon-style{
-    color: #1877f2;
-    font-size: 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: white;
+  background-color: #18191a;
+  position: relative;
+  transition: all 0.2s ease;
+  padding: 0;
+  border: none;
 }
 
-  
+.icon-circle-leftside:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  border-radius: 50%;
+}
+
+/* תיקון שם המחלקה: */
+.aligntoright {
+  text-align: right;
+}
+
+.gift-icon-style {
+  color: #1877f2;
+  font-size: 1.5rem;
+}
