@@ -24,6 +24,4 @@ It was built as a team assignment using HTML and CSS.
 2. **Extract** the downloaded ZIP file to a folder
 3. Open `facebook.html` or `FacebookFeed.html` in your browser
 
-## 🙋‍♂️ Credits
 
-Built by Amit and Gal as part of an HTML + CSS assignment.
